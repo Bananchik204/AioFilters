@@ -3,7 +3,6 @@ A python library. This is an admin filter to Aiogram library
 
 ## Using
 
-![Import](import.png)
 ```py
 from AioFilters import IsAdmin
 ```
