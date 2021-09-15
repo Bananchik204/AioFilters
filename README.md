@@ -10,3 +10,5 @@ A python library. This is an admin filter to Aiogram library
 To use this filter in admin commands you must write:
 
 ![IsAdmin](isAdmin.png)
+
+[PyPi](https://pypi.org/project/aiofilters/)
