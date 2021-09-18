@@ -1,14 +1,20 @@
 # AioFilters
 A python library. This is an admin filter to Aiogram library
 
-# Using
+## Using
 
-![Import](import.png)
+```py
+from AioFilters import IsAdmin
+```
 
-![Init](init.png)
+```py
+dp.filters_factory.bind(IsAdminFilter)
+```
 
 To use this filter in admin commands you must write:
 
-![IsAdmin](isAdmin.png)
+```py
+@dp.message_handler(is_admin=True)
+```
 
 [PyPi](https://pypi.org/project/aiofilters/)
